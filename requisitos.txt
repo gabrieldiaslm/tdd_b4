@@ -1,0 +1,5 @@
+Realizar um sistema de cadastro de cliente para no futuro disparar email de acordo com a idade
+- O cliente deve ter nome, idade, email
+- O cliente nao pode ser menor de idade
+- O email cadastrado deve ser valido
+- O nome do cliente deve ter no minimo 3 caracteres
