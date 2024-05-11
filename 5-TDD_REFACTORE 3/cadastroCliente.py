@@ -3,9 +3,12 @@ class CadastroCliente:
         self.clientes_cadastrados = []
 
     def cadastrar_cliente(self, cliente):
+
+        if cliente.idade < 18:
+            return "Cliente menor de idade, nao cadastrado"
+
         self.clientes_cadastrados.append(cliente)
-        return "Cadastrado com sucesso"
 
         if len(self.clientes_cadastrados) > 0:
-            return "Cadastrado com Sucesso"
-            
+            return "Cadastrado com sucesso"
+        
